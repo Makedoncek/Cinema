@@ -1,6 +1,6 @@
 # Cinema
 
-##Setup
+## Setup
 To use this project as is, first clone the repo from Github, the run:
 $ cd front-end-course
 $ npm install
