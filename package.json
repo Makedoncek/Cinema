@@ -1,0 +1,32 @@
+{
+  "name": "cinema",
+  "version": "1.0.0",
+  "description": "Cinema ",
+  "main": "scripts/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "sass --watch scss/style.scss  css/style.css",
+    "serve": "serve",
+    "start": "npm-run-all --parallel serve watch-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Makedoncek/Cinema.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Oleksii Savenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Makedoncek/Cinema/issues"
+  },
+  "homepage": "https://github.com/Makedoncek/Cinema#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.56.1",
+    "serve": "^14.1.2"
+  }
+}
